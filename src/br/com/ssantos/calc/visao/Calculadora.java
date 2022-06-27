@@ -6,6 +6,10 @@ import javax.swing.JFrame;
 public class Calculadora extends JFrame {
 
 	public Calculadora() {
+		setVisible(true);
+		setSize(232, 322);
+		setLocationRelativeTo(null);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
 
 	}
 
